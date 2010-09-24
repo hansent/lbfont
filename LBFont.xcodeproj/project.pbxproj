@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		12352DA41242B74F00B17291 /* SConstruct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SConstruct; sourceTree = "<group>"; };
+		128488D8124A162600FD7CDB /* lbshaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lbshaders.h; sourceTree = "<group>"; };
+		128489FE124A410E00FD7CDB /* loop-blinn.sbproj */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loop-blinn.sbproj"; path = "glsl/loop-blinn.sbproj"; sourceTree = SOURCE_ROOT; };
+		128489FF124A410E00FD7CDB /* simple.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = simple.fs; path = glsl/simple.fs; sourceTree = SOURCE_ROOT; };
+		12848A00124A410E00FD7CDB /* simple.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = simple.vs; path = glsl/simple.vs; sourceTree = SOURCE_ROOT; };
+		12AF689412430A0500938FBB /* lbfont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lbfont.h; sourceTree = "<group>"; };
+		12AF689512430A0500938FBB /* lbfont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbfont.c; sourceTree = "<group>"; };
+		12AF68C612432D1E00938FBB /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = example.c; path = examples/example.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* LBFont */ = {
+			isa = PBXGroup;
+			children = (
+				128489FD124A410E00FD7CDB /* glsl */,
+				12352DBE1242B8D600B17291 /* examples */,
+				12352DA41242B74F00B17291 /* SConstruct */,
+				12AF689412430A0500938FBB /* lbfont.h */,
+				12AF689512430A0500938FBB /* lbfont.c */,
+				128488D8124A162600FD7CDB /* lbshaders.h */,
+			);
+			name = LBFont;
+			sourceTree = "<group>";
+		};
+		12352DBE1242B8D600B17291 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				12AF68C612432D1E00938FBB /* example.c */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		128489FD124A410E00FD7CDB /* glsl */ = {
+			isa = PBXGroup;
+			children = (
+				128489FE124A410E00FD7CDB /* loop-blinn.sbproj */,
+				128489FF124A410E00FD7CDB /* simple.fs */,
+				12848A00124A410E00FD7CDB /* simple.vs */,
+			);
+			path = glsl;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D28A88AD04BDD90700651E21 /* LBFont */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "mode=$(BUILD_MODE)   -Q";
+			buildConfigurationList = 1DEB918F08733D9F0010E9CD /* Build configuration list for PBXLegacyTarget "LBFont" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/scons;
+			buildWorkingDirectory = /Users/tehansen/Desktop/LBFont;
+			dependencies = (
+			);
+			name = LBFont;
+			passBuildSettingsInEnvironment = 1;
+			productName = LBFont;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "LBFont" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* LBFont */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28A88AD04BDD90700651E21 /* LBFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB919008733D9F0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_MODE = debug;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LBFont;
+			};
+			name = Debug;
+		};
+		1DEB919108733D9F0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_MODE = release;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LBFont;
+			};
+			name = Release;
+		};
+		1DEB919408733D9F0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(VALID_ARCHS)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB919508733D9F0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(VALID_ARCHS)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB918F08733D9F0010E9CD /* Build configuration list for PBXLegacyTarget "LBFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB919008733D9F0010E9CD /* Debug */,
+				1DEB919108733D9F0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "LBFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB919408733D9F0010E9CD /* Debug */,
+				1DEB919508733D9F0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

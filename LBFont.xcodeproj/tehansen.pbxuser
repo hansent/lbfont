@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 12352E0B1242CBA400B17291 /* example */;
+		activeTarget = D28A88AD04BDD90700651E21 /* LBFont */;
+		addToTargets = (
+			D28A88AD04BDD90700651E21 /* LBFont */,
+		);
+		breakpoints = (
+			12ECEC831242D42300A6C115 /* main */,
+			12848EA9124AB5E600FD7CDB /* example.c:53 */,
+			12848EC2124AB68100FD7CDB /* lbfont.c:119 */,
+			12848EC9124AB68D00FD7CDB /* example.c:80 */,
+			12848EDF124AB6CE00FD7CDB /* lbfont.c:121 */,
+			12848EF3124AB74C00FD7CDB /* lbfont.c:107 */,
+			12B15C36124ABAD1009A4DAA /* lbfont.c:123 */,
+			12B15C3F124ABAF5009A4DAA /* lbfont.c:167 */,
+			12B15C44124ABB4B009A4DAA /* lbfont.c:167 */,
+			12B15C73124ABC30009A4DAA /* lbfont.c:167 */,
+			12A7C47E124BDC780038F8AE /* lbfont.c:72 */,
+			12A7C5E1124C14660038F8AE /* malloc_error_break */,
+			12A7C653124C17B70038F8AE /* lbfont.c:143 */,
+			12A7C65B124C18180038F8AE /* lbfont.c:212 */,
+			12A7C7B7124CFDC70038F8AE /* lbfont.c:91 */,
+			12A7C7B9124CFDC90038F8AE /* lbfont.c:93 */,
+			12A7C7C3124CFE200038F8AE /* lbfont.c:207 */,
+			12A7C7D8124CFEEE0038F8AE /* lbfont.c:85 */,
+			12A7C82A124D06BE0038F8AE /* lbfont.c:271 */,
+			12A7C82C124D06C00038F8AE /* lbfont.c:272 */,
+		);
+		codeSenseManager = 12352D9A1242B6B200B17291 /* Code sense */;
+		executables = (
+			12352E0B1242CBA400B17291 /* example */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					343,
+					20,
+					244,
+					244,
+					173,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					369,
+					20,
+					269,
+					269,
+					197,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					798,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					876,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					988,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1002,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					928,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					948,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307035175;
+			PBXWorkspaceStateSaveDate = 307035175;
+		};
+		perUserProjectItems = {
+			12348FFA1249119D00610E33 /* PBXTextBookmark */ = 12348FFA1249119D00610E33 /* PBXTextBookmark */;
+			12348FFC1249119D00610E33 /* PBXTextBookmark */ = 12348FFC1249119D00610E33 /* PBXTextBookmark */;
+			1242D9C712449133008010FB /* PBXTextBookmark */ = 1242D9C712449133008010FB /* PBXTextBookmark */;
+			12487567124951B2000CF0C9 /* PBXTextBookmark */ = 12487567124951B2000CF0C9 /* PBXTextBookmark */;
+			128488E4124A1C1C00FD7CDB /* PBXTextBookmark */ = 128488E4124A1C1C00FD7CDB /* PBXTextBookmark */;
+			12A7C855124D0A470038F8AE /* PBXTextBookmark */ = 12A7C855124D0A470038F8AE /* PBXTextBookmark */;
+			12A7C856124D0A470038F8AE /* PBXTextBookmark */ = 12A7C856124D0A470038F8AE /* PBXTextBookmark */;
+			12A7C86E124D0C4E0038F8AE /* PBXTextBookmark */ = 12A7C86E124D0C4E0038F8AE /* PBXTextBookmark */;
+			12A7C86F124D0C4E0038F8AE /* PBXTextBookmark */ = 12A7C86F124D0C4E0038F8AE /* PBXTextBookmark */;
+			12A7C870124D0C4E0038F8AE /* PBXTextBookmark */ = 12A7C870124D0C4E0038F8AE /* PBXTextBookmark */;
+			12A7C88F124D4B490038F8AE /* PBXTextBookmark */ = 12A7C88F124D4B490038F8AE /* PBXTextBookmark */;
+			12AF69131243E65B00938FBB /* PBXTextBookmark */ = 12AF69131243E65B00938FBB /* PBXTextBookmark */;
+			12B15EA4124AE13A009A4DAA /* PBXTextBookmark */ = 12B15EA4124AE13A009A4DAA /* PBXTextBookmark */;
+			12B15F32124AE6CA009A4DAA /* PBXTextBookmark */ = 12B15F32124AE6CA009A4DAA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 12352D991242B6B200B17291 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	12348FFA1249119D00610E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12348FFB1249119D00610E33 /* freetype.h */;
+		name = "freetype.h: 334";
+		rLen = 14;
+		rLoc = 21987;
+		rType = 0;
+		vrLen = 3806;
+		vrLoc = 20644;
+	};
+	12348FFB1249119D00610E33 /* freetype.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = freetype.h;
+		path = "/Users/tehansen/Desktop/LBFont/freetype-2.4.2/include/freetype/freetype.h";
+		sourceTree = "<absolute>";
+	};
+	12348FFC1249119D00610E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12A5D4FE124904F700D9DF85 /* ftobjs.c */;
+		name = "ftobjs.c: 4304";
+		rLen = 78;
+		rLoc = 119143;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 118900;
+	};
+	123490751249179F00610E33 /* example.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = example.c;
+		path = examples/example.c;
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 1079}}";
+			sepNavSelRange = "{421, 0}";
+			sepNavVisRange = "{414, 1215}";
+		};
+	};
+	12352D991242B6B200B17291 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	12352D9A1242B6B200B17291 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	12352DA41242B74F00B17291 /* SConstruct */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 741}}";
+			sepNavSelRange = "{116, 0}";
+			sepNavVisRange = "{0, 692}";
+			sepNavWindowFrame = "{{49, 329}, {750, 549}}";
+		};
+	};
+	12352E0B1242CBA400B17291 /* example */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 12352E0C1242CBA400B17291 /* example */;
+		libgmallocEnabled = 0;
+		name = example;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	12352E0C1242CBA400B17291 /* example */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = example;
+		path = examples/example;
+		sourceTree = "<group>";
+	};
+	1242D9C712449133008010FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12AF68E812432EF000938FBB /* lbfontrenderer.cpp */;
+		name = "lbfontrenderer.cpp: 78";
+		rLen = 324;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 960;
+	};
+	12487567124951B2000CF0C9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12A5D2CE1247CB9A00D9DF85 /* main.cpp */;
+		name = "main.cpp: 810";
+		rLen = 0;
+		rLoc = 27047;
+		rType = 0;
+		vrLen = 2404;
+		vrLoc = 4473;
+	};
+	128488D8124A162600FD7CDB /* lbshaders.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 1469}}";
+			sepNavSelRange = "{922, 0}";
+			sepNavVisRange = "{0, 875}";
+		};
+	};
+	128488E4124A1C1C00FD7CDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12352DA41242B74F00B17291 /* SConstruct */;
+		name = "SConstruct: 6";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 0;
+	};
+	128489FF124A410E00FD7CDB /* simple.fs */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 716}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 576}";
+		};
+	};
+	12848A00124A410E00FD7CDB /* simple.vs */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 716}}";
+			sepNavSelRange = "{33, 0}";
+			sepNavVisRange = "{0, 144}";
+		};
+	};
+	12848EA9124AB5E600FD7CDB /* example.c:53 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF68C612432D1E00938FBB /* example.c */;
+		functionName = "display()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 53;
+		location = example;
+		modificationTime = 307035750.988569;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12848EC2124AB68100FD7CDB /* lbfont.c:119 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 119;
+		location = example;
+		modificationTime = 307035750.98869;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12848EC9124AB68D00FD7CDB /* example.c:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF68C612432D1E00938FBB /* example.c */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		location = example;
+		modificationTime = 307035750.988953;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12848EDF124AB6CE00FD7CDB /* lbfont.c:121 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 121;
+		location = example;
+		modificationTime = 307035750.989037;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12848EF3124AB74C00FD7CDB /* lbfont.c:107 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "tesselateFreeTypeOutline()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 107;
+		location = example;
+		modificationTime = 307035750.989223;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12A5D2CE1247CB9A00D9DF85 /* main.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = main.cpp;
+		path = "/Users/tehansen/Downloads/tessellation 2/src/main.cpp";
+		sourceTree = "<absolute>";
+	};
+	12A5D4FE124904F700D9DF85 /* ftobjs.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = ftobjs.c;
+		path = "/Users/tehansen/Desktop/LBFont/freetype-2.4.2/src/base/ftobjs.c";
+		sourceTree = "<absolute>";
+	};
+	12A7C47E124BDC780038F8AE /* lbfont.c:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "tesselateFreeTypeGlyph()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = example;
+		modificationTime = 307035750.990153;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12A7C4ED124C05510038F8AE /* lbfont.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = lbfont.h;
+		path = examples/../lbfont.h;
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 716}}";
+			sepNavSelRange = "{850, 18}";
+			sepNavVisRange = "{0, 907}";
+		};
+	};
+	12A7C5E1124C14660038F8AE /* malloc_error_break */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libSystem.B.dylib;
+		modificationTime = 307035751.242851;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = malloc_error_break;
+	};
+	12A7C653124C17B70038F8AE /* lbfont.c:143 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 143;
+		location = example;
+		modificationTime = 307035750.990342;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12A7C65B124C18180038F8AE /* lbfont.c:212 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "initLBGlyph()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 212;
+		location = example;
+		modificationTime = 307035892.303522;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	12A7C7B7124CFDC70038F8AE /* lbfont.c:91 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "tesselateFreeTypeOutline()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 91;
+		location = example;
+		modificationTime = 307035751.140225;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	12A7C7B9124CFDC90038F8AE /* lbfont.c:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "tesselateFreeTypeOutline()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		location = example;
+		modificationTime = 307035751.158979;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	12A7C7C3124CFE200038F8AE /* lbfont.c:207 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "initLBGlyph()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 207;
+		location = example;
+		modificationTime = 307035752.184419;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	12A7C7D8124CFEEE0038F8AE /* lbfont.c:85 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "tesselateFreeTypeOutline()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 85;
+		location = example;
+		modificationTime = 307035886.347193;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	12A7C7DC124D00E10038F8AE /* lbfont.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		path = lbfont.c;
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 4485}}";
+			sepNavSelRange = "{10011, 18}";
+			sepNavVisRange = "{9571, 1314}";
+		};
+	};
+	12A7C82A124D06BE0038F8AE /* lbfont.c:271 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12A7C7DC124D00E10038F8AE /* lbfont.c */;
+		functionName = "renderLBFont()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 271;
+		modificationTime = 307037886.843792;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	12A7C82C124D06C00038F8AE /* lbfont.c:272 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12A7C7DC124D00E10038F8AE /* lbfont.c */;
+		functionName = "renderLBFont()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 272;
+		modificationTime = 307037889.894802;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	12A7C844124D09EF0038F8AE /* lbfont.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		path = lbfont.c;
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 4355}}";
+			sepNavSelRange = "{9253, 0}";
+			sepNavVisRange = "{8055, 2032}";
+			sepNavWindowFrame = "{{354, -26}, {977, 874}}";
+		};
+	};
+	12A7C855124D0A470038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 128488D8124A162600FD7CDB /* lbshaders.h */;
+		name = "lbshaders.h: 60";
+		rLen = 0;
+		rLoc = 922;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 0;
+	};
+	12A7C856124D0A470038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12A7C4ED124C05510038F8AE /* lbfont.h */;
+		name = "lbfont.h: 47";
+		rLen = 18;
+		rLoc = 850;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 0;
+	};
+	12A7C86E124D0C4E0038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 128489FF124A410E00FD7CDB /* simple.fs */;
+		name = "simple.fs: 25";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	12A7C86F124D0C4E0038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12A7C844124D09EF0038F8AE /* lbfont.c */;
+		name = "lbfont.c: 283";
+		rLen = 18;
+		rLoc = 10088;
+		rType = 0;
+		vrLen = 2186;
+		vrLoc = 6974;
+	};
+	12A7C870124D0C4E0038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 123490751249179F00610E33 /* example.c */;
+		name = "example.c: 34";
+		rLen = 0;
+		rLoc = 924;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 20;
+	};
+	12A7C88F124D4B490038F8AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12AF68C612432D1E00938FBB /* example.c */;
+		name = "example.c: 28";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 1215;
+		vrLoc = 414;
+	};
+	12AF689412430A0500938FBB /* lbfont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 716}}";
+			sepNavSelRange = "{518, 0}";
+			sepNavVisRange = "{0, 883}";
+			sepNavWindowFrame = "{{15, 4}, {750, 874}}";
+		};
+	};
+	12AF689512430A0500938FBB /* lbfont.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 4381}}";
+			sepNavSelRange = "{7857, 0}";
+			sepNavVisRange = "{6519, 2236}";
+		};
+	};
+	12AF68C612432D1E00938FBB /* example.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 1079}}";
+			sepNavSelRange = "{421, 0}";
+			sepNavVisRange = "{414, 1215}";
+			sepNavWindowFrame = "{{287, 13}, {750, 865}}";
+		};
+	};
+	12AF68D412432E3400938FBB /* lbfontrenderer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = lbfontrenderer.h;
+		path = /Users/tehansen/code/loopfont/lbfontrenderer.h;
+		sourceTree = "<absolute>";
+	};
+	12AF68E812432EF000938FBB /* lbfontrenderer.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = lbfontrenderer.cpp;
+		path = /Users/tehansen/code/loopfont/lbfontrenderer.cpp;
+		sourceTree = "<absolute>";
+	};
+	12AF69131243E65B00938FBB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12AF68D412432E3400938FBB /* lbfontrenderer.h */;
+		name = "lbfontrenderer.h: 15";
+		rLen = 76;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	12B15C36124ABAD1009A4DAA /* lbfont.c:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = example;
+		modificationTime = 307035750.989406;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12B15C3F124ABAF5009A4DAA /* lbfont.c:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		location = example;
+		modificationTime = 307035750.98959;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12B15C44124ABB4B009A4DAA /* lbfont.c:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		location = example;
+		modificationTime = 307035750.989787;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12B15C73124ABC30009A4DAA /* lbfont.c:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 12AF689512430A0500938FBB /* lbfont.c */;
+		functionName = "buildCurveData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		location = example;
+		modificationTime = 307035750.989969;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	12B15E98124AE084009A4DAA /* glutfps.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = glutfps.cpp;
+		path = /Users/tehansen/Downloads/glutfps/glutfps.cpp;
+		sourceTree = "<absolute>";
+	};
+	12B15EA4124AE13A009A4DAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12B15E98124AE084009A4DAA /* glutfps.cpp */;
+		name = "glutfps.cpp: 13";
+		rLen = 19;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	12B15F32124AE6CA009A4DAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 12848A00124A410E00FD7CDB /* simple.vs */;
+		name = "simple.vs: 3";
+		rLen = 0;
+		rLoc = 33;
+		rType = 0;
+		vrLen = 144;
+		vrLoc = 0;
+	};
+	12ECEC831242D42300A6C115 /* main */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 1;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 1;
+		ignoreCount = 0;
+		location = example;
+		modificationTime = 307035752.059627;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = main;
+	};
+	D28A88AD04BDD90700651E21 /* LBFont */ = {
+		activeExec = 0;
+	};
+}
